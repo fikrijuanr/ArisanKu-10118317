@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutusActivity">
+
+    <TextView
+        android:id="@+id/text_aboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:text="About Us" />
+
+    <ImageView
+        android:id="@+id/img_aboutUs"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/fikri"
+        android:layout_below="@+id/text_aboutUs"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/text_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/img_aboutUs"
+        android:text="Muhammad Fikri Juan R" />
+
+    <TextView
+        android:id="@+id/text_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_nama"
+        android:text="10118317" />
+
+    <TextView
+        android:id="@+id/text_kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_nim"
+        android:text="IF-8 / 2018" />
+
+    <TextView
+        android:id="@+id/text_univ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/text_kelas"
+        android:text="UNIVERSITAS KOMPUTER INDONESIA" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="129dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/text_univ"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="102dp"
+        android:text="Back to Home" />
+
+
+</RelativeLayout>
+
