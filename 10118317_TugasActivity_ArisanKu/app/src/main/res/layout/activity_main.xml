@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:layout_centerHorizontal="true">
+    
+    // 07/April/2021 - 10118317 - Muhammad Fikri Juan Ramadhan - IF8 - TugasActivity
+
+
 
     <RelativeLayout
         android:layout_width="wrap_content"
