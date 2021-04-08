@@ -6,6 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
+    
+    // 07/April/2021 - 10118317 - Muhammad Fikri Juan Ramadhan - IF8 - TugasActivity
+
 
     <LinearLayout
         android:id="@+id/linear_logo"
